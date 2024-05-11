@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --whitesmoke: #F7F4FA;
+    --white: #FFFFFF;
+    --grey: #D3D3D3;
+    --black: #121212;
+    --purple: #784ba4;
+    --lightpurple: #C9B6E4;
+    --alert-dark: #f1aeb5;
+    --alert: #f8d7da;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.card{
+    @apply bg-white px-3 border-2 border-gray-300 rounded-md divide-dashed divide-y-2 divide-gray-300 shadow-xl
+}
